@@ -8,7 +8,8 @@
     tools:context="com.example.alex.prviandroid.MainActivity"
     tools:showIn="@layout/activity_main"
     tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    android:background="@drawable/background">
 
 
     <ImageButton
@@ -19,7 +20,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
-        android:contentDescription="dugmeOcigledno"
+        android:contentDescription="@string/deskripcija"
         android:visibility="visible"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintLeft_toLeftOf="parent"
